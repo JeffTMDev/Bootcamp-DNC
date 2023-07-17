@@ -6,11 +6,10 @@ body{
     background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 25.91%, rgba(12, 112, 242, 0) 35.84%),
     linear-gradient(0deg, #303030, #303030),
     linear-gradient(0deg, #BABABA, #BABABA);
-    height: auto;
 }
 #principal {
     width: 100%;
-    height: 80px;
+    
     background: #303030;
     display: flex;
     align-items: center;
@@ -263,12 +262,16 @@ footer .linha2 a:first-child{
         margin-bottom: 20px;
     }
 
+    .form-group {
+        width: auto;
+    }
+
     form {
-        width: 95%;
+        width: auto;
     }
 
     form input{
-        width: 350px;
+        width: auto;
     }   
     form label {
         font-size: 20px;
@@ -289,7 +292,6 @@ footer .linha2 a:first-child{
 
     footer .linha1{
         flex-direction: column;
-        margin-bottom: 5px;
     }
     
     footer .endereço {
